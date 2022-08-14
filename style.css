@@ -1,0 +1,78 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Oswald';
+}
+
+
+/* gallry section  */
+
+main section .container .row .col-nr{
+    flex-wrap: wrap;
+    display: grid;
+    place-content: center;
+    padding: 50px;
+}
+
+main section .container .row .col-nr img {
+    width: 100%;
+    border-radius: 10px;
+    border: 10px solid rgb(69, 170, 145);
+
+}
+/* gallry section  */
+main section{
+    background-color: #d8e7d8;
+    padding: 20px;
+    min-width: 400px;
+}
+
+main section .container .row .col {
+    display: grid;
+    place-items: center;
+}
+
+main section .container .row .col img {
+    height: 300px;
+    border-radius: 50%;
+    border: 10px solid rgb(69, 170, 145);
+
+}
+
+main section .container .row .detail-box .detail {
+    padding: 20px;
+    border-radius: 5px;
+    width: 100%;
+
+    background-color: #7faa7f65;
+}
+
+
+main section .container .row .detail-box .detail h1 {
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    font-size: 50px;
+    color: rgb(50, 84, 129);
+}
+
+main section .container .row .detail-box .detail a {
+    padding: 10px 30px;
+    background-color: rgb(69, 170, 145);
+    text-decoration: none;
+    color: white;
+    border-radius: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: start;
+    margin: 10px 0;
+    width: 14rem;
+    border: 2px solid rgb(69, 170, 145);
+    transition: all .3s linear;
+
+}
+
+main section .container .row .detail-box .detail a:hover {
+    background-color: transparent;
+    color: rgb(69, 170, 145);
+}
